@@ -8,6 +8,5 @@
 def velocidade(espaco, tempo):
  v = espaco / tempo
  print(f'Velocidade: {v} m/s')
-
  velocidade(100, 20)
 
