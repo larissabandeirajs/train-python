@@ -1,4 +1,3 @@
-# from random import randrange, seed
 from random import randrange, seed
 import matplotlib.pyplot as plt
 
@@ -15,8 +14,15 @@ for notas in range(8):
 
 notas_matematica
 
-# import matplotlib.pyplot as plt
+ 
 
 x = list(range(1, 9))
 y = notas_matematica
-plt.plot(x, y)
+plt.plot(x, y, marker='o')
+
+
+  plt.title('Notas de matematica')
+  plt.xlabel('Provas')
+  plt.ylabel('Notas')
+  plt.show()
+   
